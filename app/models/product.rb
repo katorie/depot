@@ -7,4 +7,5 @@ class Product < ActiveRecord::Base
     with:   %r{\.(gif|jpg|png)$}i,
     message:'はGIF、JPG、PNG画像のURLでなければなりません。'
  }
+  attr_accessible :title, :price, :description, :image_url  # Rails 3.2で必要
 end
