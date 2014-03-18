@@ -1,6 +1,6 @@
 # encoding: utf-8
 class Product < ActiveRecord::Base
-  has_many :line_itema
+  has_many :line_items
 
   before_destroy :ensure_not_referenced_by_my_line_item
 
