@@ -29,7 +29,7 @@ en:
     cart:
     title:          "Your Cart"
     empty:          "Empty cart"
-    checkout:       "Ceckout"
+    checkout:       "Checkout"
 
   store:
     index:
